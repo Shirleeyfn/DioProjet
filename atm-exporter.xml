@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10005</projectId>
+    <projectKey>SWGLBS</projectKey>
+    <exportDate>2022-12-09 01:07:16 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="76535132" key="SWGLBS-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Shirley Nascimento</createdBy>
+            <createdOn>2022-12-07 01:29:51 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro deseja criar uma conta]]></name>
+            <objective><![CDATA[Verificar funcionalidade do login<br /><br />]]></objective>
+            <owner>638406139341d1f13606e8fd</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="76535161" key="SWGLBS-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Shirley Nascimento</createdBy>
+            <createdOn>2022-12-07 01:37:13 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro tenta fazer login]]></name>
+            <owner>638406139341d1f13606e8fd</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar URL x<br /><br />]]></description>
+                        <expectedResult><![CDATA[Usu&aacute;rio deve visualizar tela de login&nbsp;]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita username no campo: &quot;username&quot;]]></description>
+                        <expectedResult><![CDATA[campo username sera preenchido]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio digita password no campo: &quot;password&quot;<br /><br />]]></description>
+                        <expectedResult><![CDATA[Campos de login preenchidos e ser&aacute; redirecionado para a conta do usu&aacute;rio&nbsp;]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="76535179" key="SWGLBS-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Shirley Nascimento</createdBy>
+            <createdOn>2022-12-07 01:40:05 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja redefinir senha]]></name>
+            <owner>638406139341d1f13606e8fd</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="plain">
+                <details><![CDATA[Cliente esqueceu a senha e deseja redefini-la para voltar a ter acesso a url x<br /><br />]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
